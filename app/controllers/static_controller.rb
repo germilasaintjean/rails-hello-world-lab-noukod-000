@@ -1,6 +1,6 @@
-class StaticController < ApplicationController
+class StaticController < ApplicationController::Base
 
-  def hello_world
+def hello_world
   render "hello_world page"
 end
 
